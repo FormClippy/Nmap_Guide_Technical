@@ -335,5 +335,5 @@ PORT   STATE SERVICE
 ถ้า `/16` (65,000 IP) = คุณ broadcast 65,000 ARP request
 → Blue Team จะเห็น ARP flood ชัดเจน
 
-## 📂 4) `nmap -iL ip.txt` (สแกนจากไฟล์รายการเป้าหมาย)
+## 📂 4) nmap -iL ip.txt (สแกนจากไฟล์รายการเป้าหมาย)
 
