@@ -350,7 +350,7 @@ PORT   STATE SERVICE
 -  ใส่ `#` ขึ้นต้นบรรทัดเพื่อทำคอมเมนต์ได้
 -  ถ้าบาง target ซ้ำกัน → Nmap จะไม่ยิงซ้ำ (deduplicate ให้เอง)
 
-```python
+```bash
 # DMZ web servers
 203.0.113.10
 203.0.113.11
