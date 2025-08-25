@@ -412,4 +412,4 @@ Nmap done: 6 IP addresses (6 hosts up) scanned in 21.43 seconds
 **⚠️ ข้อควรระวัง** 
 -  ระวังไฟล์มี ช่องว่างเกิน, ตัวอักษรพิเศษ → ทำให้ Nmap อ่านเพี้ยน
 -  ถ้าไฟล์มีเป้าหมายเยอะมาก (เช่น subnet ใหญ่) → อาจสร้าง traffic เยอะเกินไป
-    -  คุมด้วย -T<0-5> (timing), --min-rate, --max-rate หรือ --min-hostgroup/--max-hostgroup
+    -  คุมด้วย `-T<0-5>` (timing), `--min-rate`, `--max-rate` หรือ `--min-hostgroup/--max-hostgroup`
