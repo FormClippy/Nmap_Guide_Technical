@@ -1,4 +1,4 @@
-<span style="color:blue">ทำไม ARP บน LAN มันเร็วมากเพราะใช้แค่ Layer 2 broadcast</span>
+<font color="blue">ทำไม ARP บน LAN มันเร็วมากเพราะใช้แค่ Layer 2 broadcast</font>
 
 # 🔍 nmap_guide_technical  
 
