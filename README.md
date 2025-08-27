@@ -1011,6 +1011,48 @@ PORT   STATE SERVICE VERSION
 
 > ใช้ `nmap --script-help <script-name>` เพื่ออ่านคู่มือ script นั้น
 
+## 📂 ตัวอย่าง script ที่ใช้บ่อย
+
+### 🔹 Service Discovery
+- `banner` → เก็บ banner ของ service
+- `http-title` → ดึง `<title>` ของหน้าเว็บ
+- `http-headers` → เก็บ HTTP response headers
+- `ssl-cert` → ดึงข้อมูล SSL/TLS certificate
+- `ssh-hostkey` → เก็บ SSH host keys
+
+---
+
+### 🔹 Authentication & Brute Force
+- `ftp-anon` → ตรวจว่า FTP เปิด anonymous login ไว้ไหม
+- `ftp-brute` → brute force login FTP
+- `ssh-brute` → brute force SSH
+- `http-brute` → brute force เว็บ login form
+- `mysql-brute` → brute force MySQL
+
+---
+
+### 🔹 Vulnerability Scan
+- `smb-vuln-ms17-010` → ตรวจหา EternalBlue (WannaCry)
+- `smb-vuln-conficker` → ตรวจหา Conficker worm
+- `http-shellshock` → ตรวจช่องโหว่ Shellshock
+- `http-heartbleed` → ตรวจ Heartbleed bug ใน OpenSSL
+- `ssl-poodle` → ตรวจ SSLv3 POODLE vulnerability
+
+---
+
+### 🔹 Exploit / Backdoor
+- `irc-botnet-channels` → ตรวจ IRC botnet C2
+- `mysql-empty-password` → ตรวจว่า MySQL root ไม่มีรหัสผ่าน
+- `http-put` → ตรวจว่าเว็บอนุญาต PUT (upload file)
+
+---
+
+### 🔹 Info Gathering
+- `dns-zone-transfer` → ทดสอบว่า DNS server เปิด AXFR transfer หรือไม่
+- `smb-enum-shares` → Enumerate SMB shares
+- `smb-enum-users` → Enumerate SMB users
+- `http-robots.txt` → ดึงไฟล์ robots.txt
+
 **📝 ใช้เมื่อไหร่**
 -  ต้องการใช้ script เจาะจง เช่น ตรวจ Heartbleed
 
