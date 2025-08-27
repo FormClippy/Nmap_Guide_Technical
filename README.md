@@ -1003,9 +1003,12 @@ PORT   STATE SERVICE VERSION
 ## 2) nmap --script=<script-name> {ip}
 
 **🔎 แนวคิด**
-> `--script <script-name>` = เรียกใช้ NSE script ที่ชื่อเฉพาะ  
-> Script ถูกเก็บใน `/usr/share/nmap/scripts/` (Linux/Kali)  
-> ใช้ `ls /usr/share/nmap/scripts/*.nse` เพื่อดูทั้งหมด  
+> `--script <script-name>` = เรียกใช้ NSE script ที่ชื่อเฉพาะ
+
+> Script ถูกเก็บใน `/usr/share/nmap/scripts/` (Linux/Kali)
+
+> ใช้ `ls /usr/share/nmap/scripts/*.nse` เพื่อดูทั้งหมด
+
 > ใช้ `nmap --script-help <script-name>` เพื่ออ่านคู่มือ script นั้น
 
 **📝 ใช้เมื่อไหร่**
