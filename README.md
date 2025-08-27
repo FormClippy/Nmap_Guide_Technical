@@ -551,7 +551,7 @@ Host is up (0.00040s latency).
 |--------|---------|---------|--------------|
 | `-sn`  | Ping scan, ไม่สแกนพอร์ต | เร็ว, เหมาะกับหา host ที่ alive | Firewall block ICMP → false negative |
 | `-Pn`  | ข้าม discovery → ถือว่า host online | ใช้เมื่อ ICMP ถูก block | สแกน host ปิดจริง → เสียเวลา |
-| `-PS80`| ใช้ TCP SYN ping ผ่านพอร์ตที่กำหนด | ดีถ้า firewall block ICMP แต่เปิด TCP | ถ้าเลือก port ที่ไม่เปิด → ผลผิดพลาด |
+| `-PS80`| ใช้ TCP SYN ping ผ่านพอร์ตที่กำหนด | ดีถ้า firewall block ICMP แต่เปิด TCP (TCP = โปรโตคอลที่ใช้โดย service พื้นฐาน) | ถ้าเลือก port ที่ไม่เปิด → ผลผิดพลาด |
 | `-PE`  | ใช้ ICMP echo (เหมือน ping) | ง่าย, เร็วใน LAN | ใช้ไม่ได้ถ้า firewall block ICMP |
 
 
